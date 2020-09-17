@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+html{
+    scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  font-family: 'Kanit', sans-serif;
+  background-image: url(https://www.pixel4k.com/wp-content/uploads/2018/11/forest-fog-aerial-view-trees-sky-4k_1541117377.jpg);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: 100%;
+     background-attachment: fixed;
+}
+
+.topnav {
+  position: relative;
+  overflow: hidden;
+ 
+  background-color: rgb(255, 255, 255);
+}
+
+.topnav a {
+  float: left;
+  color:#015249;
+  text-align: center;
+  padding: 2px 30px;
+  text-decoration: none;
+  font-size: 17px;
+  transition-duration: 0.5s;
+}
+
+.topnav a:hover {
+  background-color:#15751b;
+  color: rgb(253, 253, 253);
+  transition-duration: 0.5s;
+}
+
+.topnav a.active {
+  background-color: white;
+  color:#015249;
+  
+}
+
+.topnav-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+}
+
+.topnav-right {
+  float: right;
+}
+.btn{
+  
+    color: rgb(253, 253, 253);
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  transition-duration: 0.5s;
+  padding: 12px 26px !important;
+  background-color:#15751b;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.btn:hover {
+  background-color:#01c50e;
+  color: rgb(253, 253, 253);
+  transition-duration: 0.5s;
+}
+
+
+.container{
+ opacity: 1.0;
+    margin: auto;
+  width: 80%;
+
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.text-center{
+    text-align: center;
+}
+.logo{
+    width: 50%;
+    transition-duration: 0.5s;
+    animation: heartbeat 4.5s infinite;
+}
+.logo:hover{
+    width: 60%;
+    transition-duration: 0.5s;
+}
+
+@keyframes heartbeat
+{
+  0%
+  {
+    transform: scale( .75 );
+  }
+  20%
+  {
+    transform: scale( 1 );
+  }
+  40%
+  {
+    transform: scale( .75 );
+  }
+  60%
+  {
+    transform: scale( 1 );
+  }
+  80%
+  {
+    transform: scale( .75 );
+  }
+  100%
+  {
+    transform: scale( .75 );
+  }
+}
+.card {
+  width: 90%;
+  
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  display: inline-block;
+  background-color: white;
+}
+.section_1{
+    background-color: white !important;
+    box-shadow: 0 8px 4px 0 rgba(0,0,0,0.2);
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.content{
+    content: "";
+  display: table;
+  clear: both;
+}
+.col{
+    float: left;
+  width: 32%;
+}
+.section_2{
+    background-color: rgba(0, 133, 33, 0.8);
+    box-shadow: 0 8px 4px 0 rgba(0,0,0,0.2);
+    
+}
+
+.section_3{
+    background-color: rgb(221, 221, 221);
+}
+.text-color{
+    color:rgb(0, 71, 6);
+    border-left: 6px solid #015249;
+  background-color: rgb(240, 240, 240);
+  font-size: 30px;
+}
+    </style>
+<body>
+
+
+    <div class="topnav">
+
+        <div class="container">
+            <a >เราเป็นเจ้าของไร่เอง ไม่ผ่านพ่อค้าคนกลาง ให้บริการทั่วประเทศ</a>
+         <div class="topnav-right">
+                
+            <a >ติดต่อ 06-1727-1158 </a>
+         
+         </div>
+        </div>
+       </div>
+       
+<div id="home" class="topnav" style=" border-bottom: 5px solid #015249;">
+
+   <div class="container"> 
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+    <img class="" width="100px" src="https://www.jing.fm/clipimg/full/162-1625611_surgery-clipart-tree-tree-for-logo-png.png">
+ 
+    
+
+    <div class="topnav-right">
+        <a class="" href="#home">
+            <i class="fa fa-home" aria-hidden="true"></i> <br>
+            Home <br>
+            <small>หน้าแรก  </small>
+        </a>  
+        <a class="" href="#product">
+            <i class="fa fa-tree" aria-hidden="true"></i> <br>
+            Product <br>
+            <small>สินค้ายอดนิยม  </small>
+        </a>   
+        <a class="" href="#info">
+            <i class="fa fa-info" aria-hidden="true"></i> <br>
+            About <br>
+            <small>เกียวกับเรา  </small>
+        </a>          
+        <a class="" href="#contact">
+            <i class="fa fa-phone" aria-hidden="true"></i> <br>
+            Contact <br>
+            <small>ติดต่อเรา  </small>
+        </a>             
+    
+    </div>
+   </div>
+  </div>
+  <section>
+  <img src="https://www.desktopbackground.org/download/3440x1440/2010/08/01/57209_sunrays-in-forest-wallpapers_3872x2592_h.jpg" alt="tree" style="width:100%;">
+   
+    <div class="centered text-center">
+         <img class="logo" width="50%" src="https://www.jing.fm/clipimg/full/162-1625611_surgery-clipart-tree-tree-for-logo-png.png">
+       
+         <h1 style="color:white;">ต้นไม้ ราคาถูกยอมย่อม ส่งฟรีทั่วประเทศ</h1>
+         <p style="color:white;">เราเป็นเจ้าของไร่เอง ไม่ผ่านพ่อค้าคนกลาง ให้บริการทั่วประเทศ</p>
+         
+        <div class="btn">โทร 06-1727-1158</div> 
+        <br><small style="color:white;">วิรุฬห์ นาคอินทร์แจ้ง</small> 
+    </div>
+</section>
+<section style="margin-top: -10px;" class="section_1" id="product">
+    <br><Br><br>
+
+    <div class="container content">
+        <h2 class="text-color"><i class="fa fa-tree" aria-hidden="true"></i> สินค้ายอดนิยม</h2>
+        <div class="col">
+        <div class="card">
+            <img src="https://media.timeout.com/images/105672034/630/472/image.jpg" alt="" style="width:100%">
+            <div class="container">
+              <h2>ต้นไม้มงคล ยอดนิยมอันดับ 1</h2> 
+              <p>
+  &nbsp;&nbsp;  กวักมรกตเป็นไม้ประดับเลี้ยงง่ายตายยาก 
+เหมาะสำหรับนักปลูกมือใหม่ ทั้งช่วยกรองอากาศ
+ดูดซับสารพิษ ตามความเชื่อบอกว่า
+จะช่วยกวักเงินกวักทองเข้ามาเหมือน
+กับชื่อนั่นเอง 
+และถ้าปลูกจนมีดอกให้เห็น จะยิ่งร่ำรวยมากขึ้นไปอีกเชียวล่ะ
+              </p>
+              <br>
+            </div>
+          </div>
+          <br> <br>  
+    </div>      
+    <div class="col">
+        <div class="card">
+            <img src="https://media.timeout.com/images/105672025/380/285/image.jpg" alt="" style="width:100%">
+            <div class="container">
+              <h2>กล้วยไม้ ยอดนิยมอันดับ 2</h2> 
+              <p>
+  &nbsp;&nbsp;  เป็นไม้ประดับที่มีสีสันสวยงาม และหลากหลายพันธุ์ให้เลือก ทั้งยังดูแลง่าย ซึ่งตามความเชื่อบอกว่ากล้วยไม้เป็นไม้มหาเสน่ห์ ที่ส่งเสริมเรื่องความเมตตากรุณา ช่วยสร้างความประทับใจแก่บุคคลทั่วไป และทำให้คนในบ้านมีจริยธรรมอีกด้วย
+              </p>
+              <br>
+            </div>
+          </div>
+          <br> <br>  
+    </div>  
+    <div class="col">
+        <div class="card">
+            <img src="https://media.timeout.com/images/105672022/380/285/image.jpg" alt="" style="width:100%">
+            <div class="container">
+              <h2>พลูด่าง ยอดนิยมอันดับ 3</h2> 
+              <p>
+  &nbsp;&nbsp;  ไม้ประดับที่เรานิยมปลูกกันในบ้านอยู่แล้ว เพราะไม่ต้องการแสงแดดเยอะ ทั้งยังเลี้ยงง่ายไม่ว่าจะปลูกในน้ำหรือดิน นอกจากจะช่วยดูดซับสารพิษในอากาศได้ดี ยังช่วยเสริมสิริมงคลให้แก่ผู้ปลูกอีกด้วย ตามความเชื่อบอกว่าหากนำมาวางบริเวณโต๊ะทำงาน จะช่วยเสริมเรื่องการทำงานอย่างราบรื่น ไม่ติดขัด และทำให้อยู่เย็นเป็นสุข
+              </p>
+              <br>
+            </div>
+          </div>
+          <br> <br>  
+    </div>    
+</div>      
+<div class="container content">
+    <div class="col">
+    <div class="card">
+        <img src="https://media.timeout.com/images/105672023/380/285/image.jpg" alt="" style="width:100%">
+        <div class="container">
+          <h2>โกสน</h2> 
+          <p>
+&nbsp;&nbsp;  ต้นโกสนเป็นไม้ยืนต้น สีสันสวยแปลกตา และยังช่วยเสริมความเป็นสิริมงคลอีกด้วย เพราะมีชื่อพ้องกับคำว่า ‘กุศล’ ซึ่งหมายถึงการสร้างบุญ ถ้านำมาปลูกไว้ในบ้านจะทำให้ครอบครัวมีความสงบสุข ร่มเย็น ปราศจากความขัดแย้ง
+          </p>
+          <br>
+        </div>
+      </div>
+      <br> <br>  
+</div>      
+<div class="col">
+    <div class="card">
+        <img src="https://media.timeout.com/images/105672027/380/285/image.jpg" alt="" style="width:100%">
+        <div class="container">
+          <h2>บอนสี</h2> 
+          <p>
+&nbsp;&nbsp; ไม้มงคลที่คนไทยนิยมปลูกกันมานานแล้ว อาจจะดูแลยากสักหน่อยแต่ด้วยรูปทรง สีสัน และความเชื่อที่บอกว่าหากปลูกไว้บริเวณบ้านจะส่งเสริมความสุข ความเจริญ และสมหวังแก่เจ้าของบ้าน หลายคนจึงเลือกที่จะนำพืชชนิดนี้มาประดับบ้านและดูแลเป็นอย่างดี
+          </p>
+          <br>
+        </div>
+      </div>
+      <br> <br>  
+</div>  
+<div class="col">
+    <div class="card">
+        <img src="https://media.timeout.com/images/105672029/380/285/image.jpg" alt="" style="width:100%">
+        <div class="container">
+          <h2>เศรษฐีพันล้าน</h2> 
+          <p>
+&nbsp;&nbsp;พืชอวบน้ำใบนุ่มนิ่ม ที่เชื่อกันว่าบ้านไหนที่ปลูกต้นเศรษฐีพันล้านนี้ จะช่วยเรื่องความเป็นสิริมงคลในครัวเรือน เสริมโชคลาภ และค้าขายร่ำรวย เป็นไม้ที่เลี้ยงดูง่าย ชอบแดดรำไร เหมาะแก่การปลูกประดับบ้านหรือที่ทำงานเพื่อเสริมความมงคล
+          </p>
+          <br>
+        </div>
+      </div>
+      <br> <br>  
+</div>    
+</div>      
+</section>
+<section id="info" class="section_2">
+    <Br><Br><Br>
+   <div class="container text-center">
+       <h2 style="color:white;" class="text-center ">ผลงานของเรา</h2>
+       <p style="color:white;">ขอบคุณลูกค้าที่ไว้ใจเรา ไร่หญ้านิปุ้ย รับจัดสวน ปูสนามหญ้า ให้บริการทั่วประเทศ</p>
+       <br><Br><p style="color:white;">.... เร็วๆนี้</p><Br><Br>
+        <hr width="50%">
+
+   </div>
+   <Br><Br><Br>
+</section>
+<section id="contact" class="">
+     <Br><Br><Br>
+    <div class="container text-center">
+        <h2 style="color:white;" class="text-center ">ติดต่อ</h2>
+       <div class="btn">โทร 06-1727-1158</div> 
+       <br><small style="color:white;">วิรุฬห์ นาคอินทร์แจ้ง</small> 
+    </div>
+    <Br><Br><Br>
+</section>
+    <footer>
+         <div class="container">
+        <marquee style="color:white">© Copyright 2020 viroon nakinjang, All Rights Reserved</marqueen>
+        </div>
+    </footer>
+</body>
+</html>
